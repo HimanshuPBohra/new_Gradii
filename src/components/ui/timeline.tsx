@@ -150,7 +150,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
               <div className="relative pl-20 pr-4 md:pl-4 w-full">
                 <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-400">
-                  {item}
+                  {item.title}
                 </h3>
                 <motion.div
                   style={{ opacity: itemProgress }}
