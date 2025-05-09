@@ -101,7 +101,7 @@ export default function TestimonialCarousel() {
 
                   {/* Right side - Content */}
                   <div className="w-full md:w-7/12 lg:w-8/12 p-6 md:p-10 flex flex-col justify-center">
-                    <blockquote className="text-2xl md:text-4xl font-medium mb-6 leading-tight">
+                    <blockquote className="text-2xl md:text-4xl font-medium mb-6 leading-tight text-black">
                       "{testimonial.quote}"
                     </blockquote>
                     <div className="mt-4">
